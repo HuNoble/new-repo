@@ -17,4 +17,5 @@ terraform {
 provider "google" {
   project     = var.GCP_PROJECT
   credentials = var.GOOGLE_CREDENTIALS
+  #credentials = file("creds.json")
 }
